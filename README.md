@@ -139,12 +139,11 @@ The database is normalized up to Third Normal Form (3NF) to ensure data consiste
 
 ---
 
-## Project Structure
-
-```text
-Online-Shopping-Management-System/
+ Online-Shopping-Management-System/
 │
 ├── README.md
+├── ER_Diagram.png
+├── Relational_Schema.png
 │
 ├── database/
 │   ├── create_tables.sql
@@ -160,6 +159,8 @@ Online-Shopping-Management-System/
 │   │
 │   ├── js/
 │   │   └── script.js
+│   │
+│   ├── images/
 │   │
 │   ├── includes/
 │   │   ├── db.php
@@ -189,16 +190,11 @@ Online-Shopping-Management-System/
 │   ├── checkout-page.png
 │   └── admin-dashboard.png
 │
-├── documentation/
-│   ├── SRS_Document.pdf
-│   ├── Normalization.pdf
-│   ├── Presentation.pptx
-│   └── Project_Report.pdf
-│
-├── ER_Diagram.png
-└── Relational_Schema.png
-```
-
+└── documentation/
+    ├── SRS_Document.pdf
+    ├── Normalization.pdf
+    ├── Presentation.pptx
+    └── Project_Report.pdf
 ---
 
 ## Documentation Files
