@@ -3,7 +3,8 @@
 ## Project Overview
 
 The Online Shopping Management System is a web-based e-commerce application developed as a Database Systems project. The system allows customers to browse products, manage shopping carts, place orders, and view order history. Administrators can manage products, categories, inventory, and customer orders through an admin dashboard.
-The project demonstrates the practical implementation of relational database concepts, including database design, normalization, SQL queries, triggers, stored procedures, and frontend-backend integration using PHP and MySQL.
+
+The project demonstrates the practical implementation of relational database concepts including database design, normalization, SQL queries, views, triggers, stored procedures, and frontend-backend integration using PHP and MySQL.
 
 ---
 
@@ -35,7 +36,7 @@ The project demonstrates the practical implementation of relational database con
 ### Development Tools
 - XAMPP
 - MySQL Workbench
-- Draw.io / Lucidchart
+- Draw.io
 - GitHub
 
 ---
@@ -59,8 +60,8 @@ The project demonstrates the practical implementation of relational database con
 
 - Admin Login
 - Manage Products
-- Add New Products
-- Update Product Information
+- Add Products
+- Update Products
 - Delete Products
 - Manage Categories
 - View Customer Orders
@@ -80,36 +81,7 @@ The project demonstrates the practical implementation of relational database con
 | Orders | Stores customer orders |
 | OrderDetails | Stores ordered products |
 | Payment | Stores payment records |
-
----
-
-## Database Concepts Implemented
-
-### Entity Relationship Modeling
-The database structure is designed using an Entity Relationship Diagram (ERD).
-
-### Normalization
-The database is normalized up to Third Normal Form (3NF) to ensure data consistency and reduce redundancy.
-
-### SQL Concepts
-- SELECT Queries
-- INSERT Queries
-- UPDATE Queries
-- DELETE Queries
-- JOIN Operations
-- Aggregate Functions
-- GROUP BY
-- Views
-- Triggers
-- Stored Procedures
-
-### Database Relationships
-
-- One Customer can place multiple Orders.
-- One Category can contain multiple Products.
-- One Order can contain multiple Products.
-- One Product can appear in multiple Orders.
-- One Customer has one Shopping Cart.
+| Admin | Stores administrator information |
 
 ---
 
@@ -139,7 +111,10 @@ The database is normalized up to Third Normal Form (3NF) to ensure data consiste
 
 ---
 
- Online-Shopping-Management-System/
+## Project Structure
+
+```text
+Online-Shopping-Management-System/
 │
 ├── README.md
 ├── ER_Diagram.png
@@ -195,66 +170,45 @@ The database is normalized up to Third Normal Form (3NF) to ensure data consiste
     ├── Normalization.pdf
     ├── Presentation.pptx
     └── Project_Report.pdf
+```
+
 ---
 
-## Documentation Files
+## Database Concepts Implemented
 
-### ER_Diagram.png
-Contains the Entity Relationship Diagram showing entities and their relationships.
-
-### Relational_Schema.png
-Contains the relational schema with Primary Keys and Foreign Keys.
-
-### SRS_Document.pdf
-Contains:
-- Introduction
-- Scope
-- Functional Requirements
-- Non-Functional Requirements
-- System Users
-- Use Cases
-
-### Normalization.pdf
-Contains:
-- Unnormalized Form (UNF)
-- First Normal Form (1NF)
-- Second Normal Form (2NF)
-- Third Normal Form (3NF)
-
-### Project_Report.pdf
-Contains:
-- Introduction
-- Problem Statement
-- Objectives
-- ER Diagram
+- Entity Relationship Diagram (ERD)
 - Relational Schema
-- Normalization
-- Database Tables
+- Database Normalization (3NF)
+- Primary Keys
+- Foreign Keys
 - SQL Queries
+- Joins
+- Aggregate Functions
+- Views
 - Triggers
 - Stored Procedures
-- Frontend Screenshots
-- Conclusion
-
-### Presentation.pptx
-Contains the final project presentation used for project demonstration and viva.
 
 ---
 
-## Learning Outcomes
+## Documentation
 
-This project demonstrates:
+### ER_Diagram.png
+Contains the Entity Relationship Diagram showing entities, attributes, and relationships.
 
-- Relational Database Design
-- Entity Relationship Modeling
-- Database Normalization
-- SQL Query Development
-- Trigger Implementation
-- Stored Procedure Development
-- PHP and MySQL Integration
-- CRUD Operations
-- Session Management
-- GitHub Project Management
+### Relational_Schema.png
+Contains the relational schema derived from the ER Diagram showing tables, primary keys, and foreign keys.
+
+### SRS_Document.pdf
+Software Requirements Specification document.
+
+### Normalization.pdf
+Contains normalization process from UNF to 3NF.
+
+### Project_Report.pdf
+Complete project report including database design, SQL implementation, and frontend screenshots.
+
+### Presentation.pptx
+Project presentation for final demonstration and viva.
 
 ---
 
@@ -264,23 +218,23 @@ This project demonstrates:
 - Wishlist Functionality
 - Discount Coupons
 - Online Payment Gateway
-- Product Recommendations
-- Order Tracking
+- Order Tracking System
+- Product Recommendation System
 - Sales Analytics Dashboard
 
 ---
 
 ## Developed By
 
-**Student Name:** Muhammad Tayyab 
+**Muhammad Tayyab**
 
 **Course:** Database Systems
 
 **Semester:** 5th Semester
 
-**Department:** Computer Science 
+**Department:** Computer Science
 
-**University:** University of Lahore
+**University:** The University of Lahore
 
 ---
 
